@@ -1,0 +1,38 @@
+{
+  "name": "fast-closure-translater",
+  "version": "0.1.0",
+  "description": "Node module to translate goog.getMsg() calls in untranslated Closure Templates JS",
+  "main": "index.js",
+  "scripts": {
+    "lint": "jscs *.js lib/*.js && jshint *.js lib/*.js",
+    "test": "npm run-script lint && mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gawkermedia/fast-closure-translater.git"
+  },
+  "keywords": [
+    "closure",
+    "templates",
+    "translation"
+  ],
+  "author": "Ben Regenspan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gawkermedia/fast-closure-translater/issues"
+  },
+  "homepage": "https://github.com/gawkermedia/fast-closure-translater#readme",
+  "dependencies": {
+    "escodegen": "^1.8.0",
+    "esprima": "^2.7.1",
+    "q": "^1.4.1",
+    "sax": "^1.1.4",
+    "underscore": "^1.8.3",
+    "underscore.string": "^3.2.2"
+  },
+  "devDependencies": {
+    "jscs": "^2.8.0",
+    "jshint": "^2.8.0",
+    "mocha": "^2.3.4"
+  }
+}
