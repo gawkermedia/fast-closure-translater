@@ -93,8 +93,8 @@ function buildI18n(fileContents, translations, defaultLocale, replacementRegex) 
 	 *
 	 *	```
 	 *	goog.getMsg(
-	 *	'Unfollow {$authorBlogName}',
-	 *	{'authorBlogName': soy.$$escapeHtml(opt_data.post.authorBlogName)});
+	 *	'Unfollow {$authorScreenName}',
+	 *	{'authorScreenName': soy.$$escapeHtml(opt_data.post.authorScreenName)});
 	 *	```
 	 *
 	 * To process the goog.getMsg() calls, we:

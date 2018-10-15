@@ -47,7 +47,7 @@ describe('ClosureTranslater', function() {
 	it('should translate message with variables as expected', function () {
 		var translations = translater.translate(readFixture('variables.js'));
 		assert.equal(translations['es-ES'], '// Variables' + '\n\n\n\n' + 
-			'var MSG_EXTERNAL_8973741402914534427 = \'Aprobar \' + soy.$$escapeHtml(opt_data.post.authorBlogName) + \' en \' + ' +
+			'var MSG_EXTERNAL_8973741402914534427 = \'Aprobar \' + soy.$$escapeHtml(opt_data.post.authorScreenName) + \' en \' + ' +
 			'soy.$$escapeHtml(blogDisplayName__soy6692);\n\n');
 	});
 

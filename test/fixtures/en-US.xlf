@@ -3,7 +3,7 @@
   <file original="SoyMsgBundle" datatype="x-soy-msg-bundle" xml:space="preserve" source-language="en" target-language="en-US">
     <body>
       <trans-unit datatype="html" id="8973741402914534427">
-        <source>Approve <x id="AUTHOR_BLOG_NAME"/> on <x id="BLOG_DISPLAY_NAME"/></source>
+        <source>Approve <x id="AUTHOR_SCREEN_NAME"/> on <x id="BLOG_DISPLAY_NAME"/></source>
         <target></target>
         <note priority="1" from="description">Button Label - Approve user for blog</note>
       </trans-unit>
