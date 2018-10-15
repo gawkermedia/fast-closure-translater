@@ -31,8 +31,8 @@
     "underscore.string": "^3.2.2"
   },
   "devDependencies": {
-    "jscs": "^2.8.0",
+    "jscs": "^3.0.7",
     "jshint": "^2.8.0",
-    "mocha": "^2.3.4"
+    "mocha": "^5.2.0"
   }
 }
